@@ -12,7 +12,7 @@ const projectRoot = process.env.PROJECT_ROOT || import.meta.dirname
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './', // 👈 ADD THIS LINE
+  base: '/', // 👈 ADD THIS LINE
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
